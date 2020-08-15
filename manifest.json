@@ -1,0 +1,22 @@
+{
+    "name": "MUMI Perbon",
+    "short_name": "MUMI Perbon",
+    "description": "Aplikasi Sederhana Informasi Muda Mudi Desa Perbon",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "background_color": "#fc6061",
+    "theme_color": "#fc6061",
+    "icons": [
+        {
+            "src": "./img/core-img/icon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/core-img/icon2.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+
+    ]
+}
