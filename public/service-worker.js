@@ -3,12 +3,12 @@ importScripts('https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox
 if (workbox){
   console.log(`Workbox berhasil dimuat`);
   workbox.precaching.precacheAndRoute([
-      { url: './', revision: '1' },
-      { url: './manifest.json', revision: '1' },
-      { url: './index.html', revision: '1' },
-      { url: './about.html', revision: '1' },
-      { url: './contact.html', revision: '1' },
-      { url: './gallery.html', revision: '1' }]);
+      { url: './', revision: '5' },
+      { url: './manifest.json', revision: '5' },
+      { url: './index.html', revision: '5' },
+      { url: './about.html', revision: '5' },
+      { url: './contact.html', revision: '5' },
+      { url: './gallery.html', revision: '5' }]);
 
   workbox.routing.registerRoute(
       /.*(?:png|gif|jpg|jpeg|svg|ico)$/,
